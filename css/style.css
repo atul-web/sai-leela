@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css?family=Jomolhari|Raleway&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jomolhari", serif;
+}
+
+p, li, a {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-light {
+  transition: 500ms ease !important;
+  background: rgba(255, 255, 255, 0.4) !important;
+}
+.navbar-light .dropdown:hover .dd-horizontal {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-light.scrolled {
+  background: gold !important;
+}
+.navbar-light.scrolled .dropdown:hover .dd-horizontal {
+  background-color: #ffd700;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.dd-horizontal {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .dropdown:hover .dd-horizontal {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .navbar-light.scrolled .dropdown:hover .dd-horizontal {
+    display: flex;
+    background-color: #ffd700;
+  }
+}
+.carousel-caption {
+  bottom: 8% !important;
+  left: 65% !important;
+  right: 0 !important;
+  text-align: left !important;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption h5 {
+  font-size: 4vw;
+}
+.carousel-caption p {
+  font-size: 1vw;
+}
+
+.main-section .col-md-6 {
+  padding: 9% 6%;
+}
+.main-section .col-md-6 h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 100;
+}
+.main-section .col-md-6 h2 span {
+  font-weight: 600;
+  color: #ffd700;
+}
+.main-section .col-md-6 h5 {
+  font-size: 25px;
+  line-height: 37.5px;
+  letter-spacing: 2.4px;
+}
+.main-section .col-md-6 p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.main-section .col {
+  padding: 9% 6%;
+}
+
+.content-section {
+  background-color: white;
+  padding: 3% 0;
+}
+.content-section .container-fluid .row .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content-section .container-fluid .row .col-md-4 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-section .container-fluid .row .col-md-4 .link1 {
+  flex-grow: 3;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin: 5px 0;
+  padding: 3%;
+}
+.content-section .container-fluid .row .col-md-4 .link1 h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+}
+.content-section .container-fluid .row .col-md-4 .link {
+  background-color: #ffd700;
+  flex-grow: 1;
+  border: 1px solid #ffd700;
+}
+.content-section .container-fluid .row .col-md-4 .link a {
+  text-decoration: none;
+  color: black;
+  width: inherit;
+  height: inherit;
+  padding: 3% 0;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.content-section .container-fluid .row .col-md-4 .link form {
+  padding: 3%;
+}
+.content-section .container-fluid .row .col-md-4 .link h3 {
+  padding: 3%;
+}
+.content-section .container-fluid .row .col-md-4 .link:hover {
+  background-color: white;
+  border: 1px solid #ffd700;
+}
+.content-section .href-section a div p {
+  color: black !important;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.5vw;
+}
+.content-section .href-section a div p:hover {
+  text-decoration: none !important;
+}
+.content-section .room-description {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 5px 0;
+  width: 100% !important;
+}
+
+.features-section {
+  padding: 3%;
+  background-color: #ffd700;
+}
+.features-section .row {
+  padding: 3% 2% 0 2%;
+}
+.features-section .row .col-md-4 h4 {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.features-section .row .col-md-4 p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.more-features-section {
+  padding: 4%;
+  background-color: #f0f0f0;
+}
+.more-features-section .row .col-md-3 {
+  padding: 3%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  padding: 2%;
+  background-color: #ffd700;
+}
+.footer .row .col-md-4 {
+  padding: 1%;
+}
+.footer .row .col-md-4 h5 {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.footer .row .col-md-4 p {
+  font-size: 14px;
+}
+.footer .row .col-md-4 p a {
+  color: black;
+  font-weight: 900;
+}
+.footer .row .col-md-4 .follow-us-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .row .col-md-4 .follow-us-flex a {
+  color: black;
+  font-size: 20px;
+}
+.footer .footer-flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+}
+.footer .footer-flex h5 a {
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.rooms-section {
+  padding: 5% 2%;
+}
+.rooms-section .row .col-md-8 h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 900;
+}
+.rooms-section .row .col-md-8 h3 {
+  font-size: 26.5px;
+  line-height: 33.1255px;
+  color: #ffd700;
+  border-bottom: 1px solid black;
+}
+.rooms-section .row .col-md-8 h5 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 900;
+}
+.rooms-section .row .col-md-8 p {
+  font-size: 20px;
+  line-height: 25px;
+}
+.rooms-section .row .col-md-8 ul li {
+  font-size: 20px;
+  line-height: 25px;
+}
+.rooms-section .row .col-md-4 .row .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rooms-section .row .col-md-4 .row .col p {
+  width: inherit;
+  font-size: 16px;
+  line-height: 22.857px;
+  padding: 4% 1%;
+}
+.rooms-section .row .col-md-4 .row .col p a {
+  color: black;
+}
+.rooms-section .row .col-md-4 .row .col p a i {
+  color: #ffd700;
+  font-size: 21px;
+}
+.rooms-section .row .col-md-4 .row .col p a:hover {
+  text-decoration: none;
+}
+.rooms-section .row .room-amenities .col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  padding: 2%;
+  border: 1px solid white;
+}
+.rooms-section .row .room-amenities .col-2 h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  padding: 2%;
+}
+.rooms-section .row .room-amenities .col-2 h3 {
+  color: #ffd700;
+  font-size: 40px;
+}
+
+.contact-section {
+  padding: 3%;
+}
+.contact-section .container-fluid .row .col-md-4 {
+  padding: 3%;
+  background-color: #ffd700;
+}
+
+.corporate-section {
+  padding: 5% 2%;
+}
+.corporate-section .row .col-md-6 {
+  padding: 5% 1.5%;
+}
+.corporate-section .row .corporate-bg {
+  background: url(../img/corporate-section/1.jpg) center center no-repeat;
+  background-size: cover;
+  height: 411px;
+}
+
+.specialities-section {
+  padding: 5% 2%;
+}
+.specialities-section .row .col-md-8 h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 900;
+}
+.specialities-section .row .col-md-8 h3 {
+  font-size: 20.5px;
+  line-height: 27.1255px;
+  color: #ffd700;
+  border-bottom: 1px solid black;
+}
+.specialities-section .row .col-md-8 h5 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 900;
+}
+.specialities-section .row .col-md-8 p {
+  font-size: 15px;
+  line-height: 20px;
+}
+.specialities-section .row .col-md-8 ul li {
+  font-size: 15px;
+  line-height: 20px;
+}
+.specialities-section .row .col-md-4 .row .col {
+  padding: 5% 0;
+}
+.specialities-section .row .col-md-4 .row .col p {
+  width: inherit;
+  font-size: 16px;
+  line-height: 22.857px;
+  padding: 4% 1%;
+}
+.specialities-section .row .col-md-4 .row .col p a {
+  color: black;
+}
+.specialities-section .row .col-md-4 .row .col p a i {
+  color: #ffd700;
+  font-size: 21px;
+}
+.specialities-section .row .col-md-4 .row .col p a:hover {
+  text-decoration: none;
+}
+
+.gallery {
+  padding: 4% 1%;
+}
+
+.other-header {
+  height: 60vh;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../img/1.jpg) center center no-repeat;
+  background-size: cover;
+}
+.other-header div h2 {
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.restaurant-section {
+  padding: 5% 2%;
+}
+.restaurant-section .row .col-md-6 h2 {
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 900;
+}
+.restaurant-section .row .col-md-6 h3 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffd700;
+  border-bottom: 1px solid black;
+}
+.restaurant-section .row .col-md-6 h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 900;
+}
+.restaurant-section .row .col-md-6 p {
+  font-size: 18px;
+  line-height: 20px;
+}
+.restaurant-section .row .col-md-6 ul li {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.play-store {
+  padding: 0.2%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.play-store div a {
+  color: black;
+}
+.play-store div a p {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+  font-weight: 900;
+}
+.play-store div a p span {
+  text-decoration: underline;
+}
+.play-store div a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+  
